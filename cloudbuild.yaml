@@ -1,0 +1,3 @@
+steps:
+- name: gcr.io/never-ipv6/firebase
+  args: ['deploy', '--project=never-ipv6', '--only=hosting']
